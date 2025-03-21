@@ -1,0 +1,136 @@
+body{   
+    background: linear-gradient(180deg, #000000, #ffffff);
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style-type: none;
+}
+
+header{
+    background-color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.nomemarca{
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 400px;
+}
+
+.linknavbar{
+    font-size: 18px;
+    display: flex;
+    gap: 19px;
+}
+
+.title{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.subtitle{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.image1, .image2{
+    height: 100%;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.maintitle{
+    color: #000;
+    font-size: 35px;
+}
+
+.mainsubtitle{
+    color: #000;
+    font-size: 55px;
+    text-align: center;
+}
+
+.mainimage{
+    height: 100%;
+    width: 100%;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footertitle{
+    font-family: cursive;
+    color: #000;
+    font-size: 55px;
+    text-align: center;
+}
+
+.footervideo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    max-height: 700px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .nomemarca {
+        font-size: 24px;
+        margin-right: 0;
+    }
+
+    .linknavbar {
+        font-size: 14px;
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    .maintitle {
+        font-size: 28px;
+    }
+
+    .mainsubtitle {
+        font-size: 40px;
+    }
+
+    .footertitle {
+        font-size: 40px;
+    }
+
+    .footervideo {
+        max-width: 100%;
+        height: auto;
+    }
+}
